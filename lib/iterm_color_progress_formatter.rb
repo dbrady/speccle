@@ -29,6 +29,7 @@ module Spec
         def start_dump
           # uncomment this if you don't want the final color left on the screen
           # @@current_terminal.background_color.set @@original_color
+          super
         end
         
         def example_passed(example)
