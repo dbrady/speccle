@@ -1,4 +1,4 @@
-= Speckle =
+= Speccle =
 
 RSpec formatter that changes the background color of the current
 terminal in iTerm to match current spec state. When it starts, the
@@ -9,7 +9,7 @@ after a fail the screen will stay red.
 Here's how to include it from the command line. You can probably hook
 this up from inside spec.opts, too.
 
- spec --require ~/ruby/speckle/lib/iterm_color_progress_formatter.rb --format Spec::Runner::Formatter::ItermColorProgressFormatter spec
+ spec --require ~/ruby/speccle/lib/iterm_color_progress_formatter.rb --format Spec::Runner::Formatter::ItermColorProgressFormatter spec
 
 = Notes = 
 
